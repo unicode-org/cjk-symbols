@@ -1,0 +1,57 @@
+languagesystem DFLT dflt;
+languagesystem hani dflt;
+languagesystem kana dflt;
+languagesystem latn dflt;
+
+table head {
+  FontRevision 1.000;
+} head;
+
+table hhea {
+  Ascender 880;
+  Descender -120;
+  LineGap 200;
+} hhea;
+
+table name {
+  nameid 0 "\00A9 2007-2019 Adobe, But Ko, CMEX, Creative Commons Corporation & GlyphWiki.";
+  nameid 8 "Unicode";
+  nameid 9 "Ryoko NISHIZUKA \897F\585A\6DBC\5B50 (kana & ideographs); Frank Grie\00DFhammer (serif-style Latin); Paul D. Hunt (sans serif\2013style Latin); CMEX \8CA1\5718\6CD5\4EBA\4E2D\6587\6578\4F4D\5316\6280\8853\63A8\5EE3\57FA\91D1\6703 & But Ko \67EF\5FD7\6770 (bopomofo)";
+  nameid 10 "Dr Ken Lunde derived the glyphs from Source Han Serif, Source Han Sans, Source Han Mono, Bopomofo Ruby, CC Unicode & Hanazono Mincho A.";
+  nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \0022AS IS\0022 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+  nameid 14 "http://scripts.sil.org/OFL";
+} name;
+
+table vhea {
+  VertTypoLineGap 200;
+} vhea;
+
+table BASE {
+  HorizAxis.BaseTagList                 icfb  icft  ideo  romn;
+  HorizAxis.BaseScriptList  DFLT  ideo   -78  838   -120  0,
+                            hani  ideo   -78  838   -120  0,
+                            kana  ideo   -78  838   -120  0,
+                            latn  romn   -78  838   -120  0;
+
+  VertAxis.BaseTagList                  icfb  icft  ideo  romn;
+  VertAxis.BaseScriptList   DFLT  ideo  42    958   0     120,
+                            hani  ideo  42    958   0     120,
+                            kana  ideo  42    958   0     120,
+                            latn  romn  42    958   0     120;
+} BASE;
+
+table OS/2 {
+  TypoAscender 880;
+  TypoDescender -120;
+  TypoLineGap 200;
+  XHeight 0;
+  CapHeight 0;
+  WeightClass 400;
+  WidthClass 5;
+  Panose 2 2 4 9 0 0 0 0 0 0;
+  UnicodeRange 0 5 42 47 48 49 50 51 52 54 55 57 59 61 68;
+  FSType 0;
+  Vendor "UNIC";
+  winAscent 880;
+  winDescent 120;
+} OS/2;
