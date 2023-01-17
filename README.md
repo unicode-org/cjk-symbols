@@ -28,7 +28,7 @@ Also included in this project is a TrueType (aka TTF) version of the font that i
 
 The latest pre-built binary version of the font, in both OTF and TTF formats, can be easily downloaded from the [Latest Release](https://github.com/unicode-org/cjk-symbols/releases/latest/).
 
-This font is expected to be used as a replacement code chart font starting from Unicode Version 14.0.
+This font began to be used as a replacement code chart font in [Unicode Version 14.0](https://www.unicode.org/versions/Unicode14.0.0/), and the [Glyph and Variation Sequence Changes](https://www.unicode.org/charts/PDF/Unicode-14.0/#GlyphChanges) table on the [Unicode® 14.0 Versioned Charts Index](https://www.unicode.org/charts/PDF/Unicode-14.0/) page indicates which particular blocks, among those listed above, were updated to use this font.
 
 ## Building the fonts from source
 
