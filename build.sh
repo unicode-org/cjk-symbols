@@ -13,8 +13,8 @@ do
     fi
 done
 
-# Build the CID-keyed OpenType/CFF font (OTF)
-makeotf -f cidfont.ps -omitMacNames -ff features -fi cidfontinfo -mf FontMenuNameDB -r -cs 1 -ch UniCJKSymbols-UTF32-H
+# Build the name-keyed OpenType/CFF font (OTF)
+makeotf -r -f font.pfa -omitMacNames -ff features.fea -mf FontMenuNameDB -gf GlyphOrderAndAliasDB
 
 # Convert the OTF to TTF
 otf2ttf CJKSymbols-Regular.otf

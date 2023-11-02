@@ -38,7 +38,7 @@ To build the binary font files from source, you need to have installed the [Adob
 
 ### Building the fonts
 
-In this repository, all necessary files are in place for building the CID-keyed OpenType/CFF and TrueType fonts, and the *build.sh* file can simply be executed.
+In this repository, all necessary files are in place for building the name-keyed OpenType/CFF and TrueType fonts, and the *build.sh* file can simply be executed.
 
 ## Getting Involved
 
